@@ -2,16 +2,16 @@
 
 ####################
 # Lab 1 Exercise 4
-# Name:
-# Student No:
-# Lab Group: 
+# Name: Chong Zi Kang
+# Student No: A0189930R
+# Lab Group: T10
 ####################
 
 # fill the below up
 hostname=$(hostname)
 kernel_version=$(uname -r)
-process_cnt=$(ps ax | wc -c)
-user_process_cnt=$(ps | wc -c)
+process_cnt=$(ps -e | wc -l)
+user_process_cnt=$(ps | wc -l)
 mem_usage=$(free | grep Mem | awk '{print $3/$2 * 100.0}')
 swap_usage=$(free | grep Swap | awk '{print $3/$2 * 100.0}')
 
