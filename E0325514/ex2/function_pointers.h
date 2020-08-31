@@ -1,8 +1,8 @@
 /*************************************
 * Lab 1 Exercise 2
-* Name: LOH FAH YAO, JARYL
-* Student No: A0202023H
-* Lab Group: B08
+# Name: Chong Zi Kang
+# Student No: A0189930R
+# Lab Group: T10
 *************************************/
 
 //declare your func_list array here

@@ -1,8 +1,8 @@
 /*************************************
 * Lab 1 Exercise 2
-* Name:
-* Student No:
-* Lab Group:
+# Name: Chong Zi Kang
+# Student No: A0189930R
+# Lab Group: T10
 *************************************/
 
 #include <stdio.h>
@@ -46,9 +46,15 @@ int main(int argc, char **argv)
 
     // printf("Before file opening...\n");
     FILE* file = fopen(fname, "r");
+
+    if (!file) {
+        printf("Invalid file; exiting program...");
+        printf("\n");
+        return 0;
+    }
+
     int instr;
-    while (fscanf(file, "%d", &instr) == 1) {
-        // printf("instr: %d\n", instr);
+    while (fscanf(file, "%d", &instr) != EOF) {
         int index, data;
         switch (instr)
         {

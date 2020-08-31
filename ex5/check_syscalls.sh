@@ -2,9 +2,9 @@
 
 ####################
 # Lab 1 Exercise 5
-# Name:
-# Student No:
-# Lab Group: 
+# Name: Chong Zi Kang
+# Student No: A0189930R
+# Lab Group: T10
 ####################
 
 echo "Printing system call report"
